@@ -3,6 +3,8 @@ public class Laborator_10
     private Circle cercGalben;
     private Triangle triunghiAlbastru;
     private Square patratRosu;
+    private Square patratAlb1;
+    private Square patratAlb2;
     /**
      * Constructor for objects of class Laborator_10
      */
@@ -12,6 +14,8 @@ public class Laborator_10
         cercGalben = new Circle();
         triunghiAlbastru = new Triangle();
         patratRosu = new Square();
+        patratAlb1 = new Square();
+        patratAlb2 = new Square();
         patratRosu.changeColor("red");
         patratRosu.changeSize(100);        
         patratRosu.moveDown();
@@ -23,7 +27,15 @@ public class Laborator_10
         triunghiAlbastru.changeSize(85, 130);
         triunghiAlbastru.moveHorizontal(80);
         triunghiAlbastru.moveDown();
-        triunghiAlbastru.makeVisible();        
+        triunghiAlbastru.makeVisible();
+        patratAlb1.changeColor("white");
+        patratAlb1.moveVertical(80);        
+        patratAlb1.moveHorizontal(30);
+        patratAlb1.makeVisible();
+        patratAlb2.changeColor("white");
+        patratAlb2.moveHorizontal(80);
+        patratAlb2.moveVertical(80);
+        patratAlb2.makeVisible();
         cercGalben.changeColor("yellow");
         cercGalben.changeSize(70);
         cercGalben.moveHorizontal(160);
