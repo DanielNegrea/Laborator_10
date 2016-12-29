@@ -5,6 +5,7 @@ public class Laborator_10
     private Square patratRosu;
     private Square patratAlb1;
     private Square patratAlb2;
+    private Square patratNegru;
     /**
      * Constructor for objects of class Laborator_10
      */
@@ -16,6 +17,7 @@ public class Laborator_10
         patratRosu = new Square();
         patratAlb1 = new Square();
         patratAlb2 = new Square();
+        patratNegru = new Square();
         patratRosu.changeColor("red");
         patratRosu.changeSize(100);        
         patratRosu.moveDown();
@@ -36,6 +38,11 @@ public class Laborator_10
         patratAlb2.moveHorizontal(80);
         patratAlb2.moveVertical(80);
         patratAlb2.makeVisible();
+        patratNegru.changeColor("black");
+        patratNegru.changeSize(22);
+        patratNegru.moveVertical(130);
+        patratNegru.moveHorizontal(60);
+        patratNegru.makeVisible();
         cercGalben.changeColor("yellow");
         cercGalben.changeSize(70);
         cercGalben.moveHorizontal(160);
